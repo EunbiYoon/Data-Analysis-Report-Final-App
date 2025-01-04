@@ -1,6 +1,5 @@
 
 import os
-
 from dotenv import load_dotenv
 
 dotenv_path = os.path.join(
@@ -27,28 +26,14 @@ def handle_500(e):
 
 def create_app():
     app = Flask(__name__, instance_relative_config=True)
-    
-    app.config.from_mapping(
-        SECRET_KEY=os.environ['SECRET_KEY'],
-        SQLALCHEMY_DATABASE_URI=os.environ['SQLALCHEMY_DATABASE_URI'],
-        SQLALCHEMY_TRACK_MODIFICATIONS=False
-    )
-    
+
     app.register_error_handler(401, handle_401)
     app.register_error_handler(404, handle_404)
     app.register_error_handler(500, handle_500)
     
-    from flasktodo.models import db 
-    db.init_app(app)
+    from flasktodo import todo
     
-    migrate.init_app(app, db)
-    
-    from flasktodo import auth, todo
-    
-    app.register_blueprint(auth.bp)
     app.register_blueprint(todo.bp)
-    
-    auth.login_manager.init_app(app)
     
     import requests
     

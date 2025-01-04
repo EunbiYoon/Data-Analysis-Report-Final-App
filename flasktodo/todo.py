@@ -1,6 +1,4 @@
 from flask import render_template, url_for, redirect, Blueprint, abort, request
-from flask_login import login_required, current_user
-from flasktodo.models import db, Todo
 
 import pandas as pd 
 from flasktodo.graph import legend2M, legend1M, legend0M, ABlabels, Avalues2M, Avalues1M, Avalues0M, Bvalues2M, Bvalues1M, Bvalues0M, Plabels, Pvalues, svc_data_html, min_data_html
@@ -17,7 +15,6 @@ bp = Blueprint('todo', __name__)
 
 #check list만 여기서 sorting
 @bp.route("/",methods=["POST","GET"])
-@login_required
 def index():
     ####################### INITIAL #####################
     # symptoms
@@ -146,7 +143,6 @@ def index():
 
 
 @bp.route("/trend")
-@login_required
 def trend():
     return render_template('todo/charts.html', ABlabels=ABlabels,
     Avalues2M=Avalues2M, Avalues1M=Avalues1M, Avalues0M=Avalues0M,
@@ -155,14 +151,12 @@ def trend():
     legend2M=legend2M, legend1M=legend1M, legend0M=legend0M)
 
 @bp.route("/list")
-@login_required
 def list():
     return render_template('todo/tables.html',svc_data_html=svc_data_html)
 
 
 
 @bp.route("/kpi",methods=["POST","GET"])
-@login_required
 def kpi():
         ####################### INITIAL #####################
     # symptoms
@@ -287,45 +281,45 @@ def kpi():
 
 #card
 @bp.route("/report")
-@login_required
+
 def report():
     return render_template('card/report.html')
 
 @bp.route("/email")
-@login_required
+
 def email():
     return render_template('card/email.html')
 
 @bp.route("/logic")
-@login_required
+
 def logic():
     return render_template('card/dataframe.html')
 
 
 #layout
 @bp.route("/layout_static")
-@login_required
+
 def layout_static():
     return render_template('windowskin/layout-static.html')
 
 @bp.route("/layout_sidenav")
-@login_required
+
 def layout_sidenav():
     return render_template('windowskin/layout-sidenav-light.html')
 
 #error
 @bp.route("/error_401")
-@login_required
+
 def error_401():
     return render_template('error/401.html')
 
 @bp.route("/error_404")
-@login_required
+
 def error_404():
     return render_template('error/404.html')
 
 @bp.route("/error_500")
-@login_required
+
 def error_500():
     return render_template('error/500.html')
 if __name__ == "__main__":

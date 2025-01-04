@@ -1,50 +1,68 @@
 [
     {
-        "label": "flash",
-        "importPath": "flask",
-        "description": "flask",
+        "label": "numpy",
+        "kind": 6,
         "isExtraImport": true,
-        "detail": "flask",
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
         "documentation": {}
     },
     {
-        "label": "render_template",
-        "importPath": "flask",
-        "description": "flask",
+        "label": "pandas",
+        "kind": 6,
         "isExtraImport": true,
-        "detail": "flask",
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
         "documentation": {}
     },
     {
-        "label": "url_for",
-        "importPath": "flask",
-        "description": "flask",
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
         "isExtraImport": true,
-        "detail": "flask",
+        "detail": "datetime",
         "documentation": {}
     },
     {
-        "label": "redirect",
-        "importPath": "flask",
-        "description": "flask",
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
         "isExtraImport": true,
-        "detail": "flask",
+        "detail": "datetime",
         "documentation": {}
     },
     {
-        "label": "request",
-        "importPath": "flask",
-        "description": "flask",
+        "label": "date",
+        "importPath": "datetime",
+        "description": "datetime",
         "isExtraImport": true,
-        "detail": "flask",
+        "detail": "datetime",
         "documentation": {}
     },
     {
-        "label": "Blueprint",
-        "importPath": "flask",
-        "description": "flask",
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
         "isExtraImport": true,
-        "detail": "flask",
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "random",
+        "description": "random",
+        "isExtraImport": true,
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "relativedelta",
+        "importPath": "dateutil",
+        "description": "dateutil",
+        "isExtraImport": true,
+        "detail": "dateutil",
         "documentation": {}
     },
     {
@@ -101,168 +119,6 @@
         "description": "flask",
         "isExtraImport": true,
         "detail": "flask",
-        "documentation": {}
-    },
-    {
-        "label": "LoginManager",
-        "importPath": "flask_login",
-        "description": "flask_login",
-        "isExtraImport": true,
-        "detail": "flask_login",
-        "documentation": {}
-    },
-    {
-        "label": "login_user",
-        "importPath": "flask_login",
-        "description": "flask_login",
-        "isExtraImport": true,
-        "detail": "flask_login",
-        "documentation": {}
-    },
-    {
-        "label": "logout_user",
-        "importPath": "flask_login",
-        "description": "flask_login",
-        "isExtraImport": true,
-        "detail": "flask_login",
-        "documentation": {}
-    },
-    {
-        "label": "login_required",
-        "importPath": "flask_login",
-        "description": "flask_login",
-        "isExtraImport": true,
-        "detail": "flask_login",
-        "documentation": {}
-    },
-    {
-        "label": "login_required",
-        "importPath": "flask_login",
-        "description": "flask_login",
-        "isExtraImport": true,
-        "detail": "flask_login",
-        "documentation": {}
-    },
-    {
-        "label": "current_user",
-        "importPath": "flask_login",
-        "description": "flask_login",
-        "isExtraImport": true,
-        "detail": "flask_login",
-        "documentation": {}
-    },
-    {
-        "label": "db",
-        "importPath": "flasktodo.models",
-        "description": "flasktodo.models",
-        "isExtraImport": true,
-        "detail": "flasktodo.models",
-        "documentation": {}
-    },
-    {
-        "label": "User",
-        "importPath": "flasktodo.models",
-        "description": "flasktodo.models",
-        "isExtraImport": true,
-        "detail": "flasktodo.models",
-        "documentation": {}
-    },
-    {
-        "label": "db",
-        "importPath": "flasktodo.models",
-        "description": "flasktodo.models",
-        "isExtraImport": true,
-        "detail": "flasktodo.models",
-        "documentation": {}
-    },
-    {
-        "label": "Todo",
-        "importPath": "flasktodo.models",
-        "description": "flasktodo.models",
-        "isExtraImport": true,
-        "detail": "flasktodo.models",
-        "documentation": {}
-    },
-    {
-        "label": "numpy",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "numpy",
-        "description": "numpy",
-        "detail": "numpy",
-        "documentation": {}
-    },
-    {
-        "label": "pandas",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "pandas",
-        "description": "pandas",
-        "detail": "pandas",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "timedelta",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "date",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "*",
-        "importPath": "random",
-        "description": "random",
-        "isExtraImport": true,
-        "detail": "random",
-        "documentation": {}
-    },
-    {
-        "label": "relativedelta",
-        "importPath": "dateutil",
-        "description": "dateutil",
-        "isExtraImport": true,
-        "detail": "dateutil",
-        "documentation": {}
-    },
-    {
-        "label": "SQLAlchemy",
-        "importPath": "flask_sqlalchemy",
-        "description": "flask_sqlalchemy",
-        "isExtraImport": true,
-        "detail": "flask_sqlalchemy",
         "documentation": {}
     },
     {
@@ -492,87 +348,6 @@
         "documentation": {}
     },
     {
-        "label": "load_user",
-        "kind": 2,
-        "importPath": "flasktodo.auth",
-        "description": "flasktodo.auth",
-        "peekOfCode": "def load_user(user_id):\n    return User.query.get(int(user_id))\n@bp.route('/register')\ndef show_register():\n    return render_template('auth/register.html')\n@bp.route('/register', methods=('POST',))\ndef register():\n    username = request.form['username']\n    raw_password1 = request.form['password1']\n    raw_password2 = request.form['password2']",
-        "detail": "flasktodo.auth",
-        "documentation": {}
-    },
-    {
-        "label": "show_register",
-        "kind": 2,
-        "importPath": "flasktodo.auth",
-        "description": "flasktodo.auth",
-        "peekOfCode": "def show_register():\n    return render_template('auth/register.html')\n@bp.route('/register', methods=('POST',))\ndef register():\n    username = request.form['username']\n    raw_password1 = request.form['password1']\n    raw_password2 = request.form['password2']\n    if not username:\n        flash('Username is a required field')\n        return redirect(url_for('auth.show_register'))",
-        "detail": "flasktodo.auth",
-        "documentation": {}
-    },
-    {
-        "label": "register",
-        "kind": 2,
-        "importPath": "flasktodo.auth",
-        "description": "flasktodo.auth",
-        "peekOfCode": "def register():\n    username = request.form['username']\n    raw_password1 = request.form['password1']\n    raw_password2 = request.form['password2']\n    if not username:\n        flash('Username is a required field')\n        return redirect(url_for('auth.show_register'))\n    if not raw_password1 or not raw_password2:\n        flash('Password is a required field')\n        return redirect(url_for('auth.show_register'))",
-        "detail": "flasktodo.auth",
-        "documentation": {}
-    },
-    {
-        "label": "show_login",
-        "kind": 2,
-        "importPath": "flasktodo.auth",
-        "description": "flasktodo.auth",
-        "peekOfCode": "def show_login():\n    return render_template('auth/login.html')\n@bp.route('/login', methods=('POST',))\ndef login():\n    username = request.form['username']\n    raw_password = request.form['password']\n    if not username:\n        flash('Username is a required field')\n        return redirect(url_for('auth.show_login'))\n    if not raw_password:",
-        "detail": "flasktodo.auth",
-        "documentation": {}
-    },
-    {
-        "label": "login",
-        "kind": 2,
-        "importPath": "flasktodo.auth",
-        "description": "flasktodo.auth",
-        "peekOfCode": "def login():\n    username = request.form['username']\n    raw_password = request.form['password']\n    if not username:\n        flash('Username is a required field')\n        return redirect(url_for('auth.show_login'))\n    if not raw_password:\n        flash('Password is a required field')\n        return redirect(url_for('auth.show_login'))\n    user = User.query.filter_by(username=username).first()",
-        "detail": "flasktodo.auth",
-        "documentation": {}
-    },
-    {
-        "label": "logout",
-        "kind": 2,
-        "importPath": "flasktodo.auth",
-        "description": "flasktodo.auth",
-        "peekOfCode": "def logout():\n    logout_user()\n    return redirect(url_for('auth.login'))",
-        "detail": "flasktodo.auth",
-        "documentation": {}
-    },
-    {
-        "label": "login_manager",
-        "kind": 5,
-        "importPath": "flasktodo.auth",
-        "description": "flasktodo.auth",
-        "peekOfCode": "login_manager = LoginManager()\nbp = Blueprint('auth', __name__, url_prefix='/auth')\nlogin_manager.login_view = \"auth.login\"\n@login_manager.user_loader\ndef load_user(user_id):\n    return User.query.get(int(user_id))\n@bp.route('/register')\ndef show_register():\n    return render_template('auth/register.html')\n@bp.route('/register', methods=('POST',))",
-        "detail": "flasktodo.auth",
-        "documentation": {}
-    },
-    {
-        "label": "bp",
-        "kind": 5,
-        "importPath": "flasktodo.auth",
-        "description": "flasktodo.auth",
-        "peekOfCode": "bp = Blueprint('auth', __name__, url_prefix='/auth')\nlogin_manager.login_view = \"auth.login\"\n@login_manager.user_loader\ndef load_user(user_id):\n    return User.query.get(int(user_id))\n@bp.route('/register')\ndef show_register():\n    return render_template('auth/register.html')\n@bp.route('/register', methods=('POST',))\ndef register():",
-        "detail": "flasktodo.auth",
-        "documentation": {}
-    },
-    {
-        "label": "login_manager.login_view",
-        "kind": 5,
-        "importPath": "flasktodo.auth",
-        "description": "flasktodo.auth",
-        "peekOfCode": "login_manager.login_view = \"auth.login\"\n@login_manager.user_loader\ndef load_user(user_id):\n    return User.query.get(int(user_id))\n@bp.route('/register')\ndef show_register():\n    return render_template('auth/register.html')\n@bp.route('/register', methods=('POST',))\ndef register():\n    username = request.form['username']",
-        "detail": "flasktodo.auth",
-        "documentation": {}
-    },
-    {
         "label": "pivot_table",
         "kind": 5,
         "importPath": "flasktodo.graph",
@@ -645,38 +420,11 @@
         "documentation": {}
     },
     {
-        "label": "User",
-        "kind": 6,
-        "importPath": "flasktodo.models",
-        "description": "flasktodo.models",
-        "peekOfCode": "class User(db.Model):\n    __tablename__ = 'users'\n    id = db.Column(db.Integer, primary_key=True)\n    username = db.Column(db.String(120), unique=True, nullable=False)\n    password = db.Column(db.String(100), nullable=False)\n    todos = db.relationship('Todo', backref='user', lazy=True)\n    def is_authenticated(self):\n        return True\n    def is_active(self):\n        return True",
-        "detail": "flasktodo.models",
-        "documentation": {}
-    },
-    {
-        "label": "Todo",
-        "kind": 6,
-        "importPath": "flasktodo.models",
-        "description": "flasktodo.models",
-        "peekOfCode": "class Todo(db.Model):\n    __tablename__ = 'todos'\n    id = db.Column(db.Integer, primary_key=True)\n    title = db.Column(db.String(200), nullable=False)\n    text = db.Column(db.Text, nullable=False)\n    created_at = db.Column(db.DateTime, nullable=False, default=datetime.utcnow)\n    completed_at = db.Column(db.DateTime, nullable=True)\n    archived = db.Column(db.Boolean, default=False)\n    user_id = db.Column(db.Integer, db.ForeignKey('users.id'), nullable=False)",
-        "detail": "flasktodo.models",
-        "documentation": {}
-    },
-    {
-        "label": "db",
-        "kind": 5,
-        "importPath": "flasktodo.models",
-        "description": "flasktodo.models",
-        "peekOfCode": "db = SQLAlchemy()\nclass User(db.Model):\n    __tablename__ = 'users'\n    id = db.Column(db.Integer, primary_key=True)\n    username = db.Column(db.String(120), unique=True, nullable=False)\n    password = db.Column(db.String(100), nullable=False)\n    todos = db.relationship('Todo', backref='user', lazy=True)\n    def is_authenticated(self):\n        return True\n    def is_active(self):",
-        "detail": "flasktodo.models",
-        "documentation": {}
-    },
-    {
         "label": "html_table",
         "kind": 2,
         "importPath": "flasktodo.todo",
         "description": "flasktodo.todo",
-        "peekOfCode": "def html_table(input_table):\n    input_table_html=input_table.to_html()\n    input_table_html=input_table_html.replace('border=\"1\" class=\"dataframe\"','id=\"datatablesSimple2\"' )\n    input_table_html=input_table_html.replace('<tr style=\"text-align: right;\">','<tr>')\n    input_table_html=input_table_html.replace('<th></th>','<th>No</th>')\n    return input_table_html\nbp = Blueprint('todo', __name__)\n#check list만 여기서 sorting\n@bp.route(\"/\",methods=[\"POST\",\"GET\"])\n@login_required",
+        "peekOfCode": "def html_table(input_table):\n    input_table_html=input_table.to_html()\n    input_table_html=input_table_html.replace('border=\"1\" class=\"dataframe\"','id=\"datatablesSimple2\"' )\n    input_table_html=input_table_html.replace('<tr style=\"text-align: right;\">','<tr>')\n    input_table_html=input_table_html.replace('<th></th>','<th>No</th>')\n    return input_table_html\nbp = Blueprint('todo', __name__)\n#check list만 여기서 sorting\n@bp.route(\"/\",methods=[\"POST\",\"GET\"])\ndef index():",
         "detail": "flasktodo.todo",
         "documentation": {}
     },
@@ -694,7 +442,7 @@
         "kind": 2,
         "importPath": "flasktodo.todo",
         "description": "flasktodo.todo",
-        "peekOfCode": "def trend():\n    return render_template('todo/charts.html', ABlabels=ABlabels,\n    Avalues2M=Avalues2M, Avalues1M=Avalues1M, Avalues0M=Avalues0M,\n    Bvalues2M=Bvalues2M,Bvalues1M=Bvalues1M,Bvalues0M=Bvalues0M,\n    Plabels=Plabels,Pvalues=Pvalues,\n    legend2M=legend2M, legend1M=legend1M, legend0M=legend0M)\n@bp.route(\"/list\")\n@login_required\ndef list():\n    return render_template('todo/tables.html',svc_data_html=svc_data_html)",
+        "peekOfCode": "def trend():\n    return render_template('todo/charts.html', ABlabels=ABlabels,\n    Avalues2M=Avalues2M, Avalues1M=Avalues1M, Avalues0M=Avalues0M,\n    Bvalues2M=Bvalues2M,Bvalues1M=Bvalues1M,Bvalues0M=Bvalues0M,\n    Plabels=Plabels,Pvalues=Pvalues,\n    legend2M=legend2M, legend1M=legend1M, legend0M=legend0M)\n@bp.route(\"/list\")\ndef list():\n    return render_template('todo/tables.html',svc_data_html=svc_data_html)\n@bp.route(\"/kpi\",methods=[\"POST\",\"GET\"])",
         "detail": "flasktodo.todo",
         "documentation": {}
     },
@@ -703,7 +451,7 @@
         "kind": 2,
         "importPath": "flasktodo.todo",
         "description": "flasktodo.todo",
-        "peekOfCode": "def list():\n    return render_template('todo/tables.html',svc_data_html=svc_data_html)\n@bp.route(\"/kpi\",methods=[\"POST\",\"GET\"])\n@login_required\ndef kpi():\n        ####################### INITIAL #####################\n    # symptoms\n    initial_data=[\"DRAIN\",\"EXPLANATION\",\"EXTERIOR\",\"FILLING\",\"LEAK\",\"LID\",\"MISASSEMBLY\",\"MOTOR\",\"NOISE/VIBRATION\",\"OTHER\",\"PCB\",\"RETURN\"]\n    # pivot chart --> datatablesSimple2\n    sort_pivot=pivot_function(initial_data)",
+        "peekOfCode": "def list():\n    return render_template('todo/tables.html',svc_data_html=svc_data_html)\n@bp.route(\"/kpi\",methods=[\"POST\",\"GET\"])\ndef kpi():\n        ####################### INITIAL #####################\n    # symptoms\n    initial_data=[\"DRAIN\",\"EXPLANATION\",\"EXTERIOR\",\"FILLING\",\"LEAK\",\"LID\",\"MISASSEMBLY\",\"MOTOR\",\"NOISE/VIBRATION\",\"OTHER\",\"PCB\",\"RETURN\"]\n    # pivot chart --> datatablesSimple2\n    sort_pivot=pivot_function(initial_data)\n    sort_pivot_html=html_table(sort_pivot)",
         "detail": "flasktodo.todo",
         "documentation": {}
     },
@@ -721,7 +469,7 @@
         "kind": 2,
         "importPath": "flasktodo.todo",
         "description": "flasktodo.todo",
-        "peekOfCode": "def report():\n    return render_template('card/report.html')\n@bp.route(\"/email\")\n@login_required\ndef email():\n    return render_template('card/email.html')\n@bp.route(\"/logic\")\n@login_required\ndef logic():\n    return render_template('card/dataframe.html')",
+        "peekOfCode": "def report():\n    return render_template('card/report.html')\n@bp.route(\"/email\")\ndef email():\n    return render_template('card/email.html')\n@bp.route(\"/logic\")\ndef logic():\n    return render_template('card/dataframe.html')\n#layout\n@bp.route(\"/layout_static\")",
         "detail": "flasktodo.todo",
         "documentation": {}
     },
@@ -730,7 +478,7 @@
         "kind": 2,
         "importPath": "flasktodo.todo",
         "description": "flasktodo.todo",
-        "peekOfCode": "def email():\n    return render_template('card/email.html')\n@bp.route(\"/logic\")\n@login_required\ndef logic():\n    return render_template('card/dataframe.html')\n#layout\n@bp.route(\"/layout_static\")\n@login_required\ndef layout_static():",
+        "peekOfCode": "def email():\n    return render_template('card/email.html')\n@bp.route(\"/logic\")\ndef logic():\n    return render_template('card/dataframe.html')\n#layout\n@bp.route(\"/layout_static\")\ndef layout_static():\n    return render_template('windowskin/layout-static.html')\n@bp.route(\"/layout_sidenav\")",
         "detail": "flasktodo.todo",
         "documentation": {}
     },
@@ -739,7 +487,7 @@
         "kind": 2,
         "importPath": "flasktodo.todo",
         "description": "flasktodo.todo",
-        "peekOfCode": "def logic():\n    return render_template('card/dataframe.html')\n#layout\n@bp.route(\"/layout_static\")\n@login_required\ndef layout_static():\n    return render_template('windowskin/layout-static.html')\n@bp.route(\"/layout_sidenav\")\n@login_required\ndef layout_sidenav():",
+        "peekOfCode": "def logic():\n    return render_template('card/dataframe.html')\n#layout\n@bp.route(\"/layout_static\")\ndef layout_static():\n    return render_template('windowskin/layout-static.html')\n@bp.route(\"/layout_sidenav\")\ndef layout_sidenav():\n    return render_template('windowskin/layout-sidenav-light.html')\n#error",
         "detail": "flasktodo.todo",
         "documentation": {}
     },
@@ -748,7 +496,7 @@
         "kind": 2,
         "importPath": "flasktodo.todo",
         "description": "flasktodo.todo",
-        "peekOfCode": "def layout_static():\n    return render_template('windowskin/layout-static.html')\n@bp.route(\"/layout_sidenav\")\n@login_required\ndef layout_sidenav():\n    return render_template('windowskin/layout-sidenav-light.html')\n#error\n@bp.route(\"/error_401\")\n@login_required\ndef error_401():",
+        "peekOfCode": "def layout_static():\n    return render_template('windowskin/layout-static.html')\n@bp.route(\"/layout_sidenav\")\ndef layout_sidenav():\n    return render_template('windowskin/layout-sidenav-light.html')\n#error\n@bp.route(\"/error_401\")\ndef error_401():\n    return render_template('error/401.html')\n@bp.route(\"/error_404\")",
         "detail": "flasktodo.todo",
         "documentation": {}
     },
@@ -757,7 +505,7 @@
         "kind": 2,
         "importPath": "flasktodo.todo",
         "description": "flasktodo.todo",
-        "peekOfCode": "def layout_sidenav():\n    return render_template('windowskin/layout-sidenav-light.html')\n#error\n@bp.route(\"/error_401\")\n@login_required\ndef error_401():\n    return render_template('error/401.html')\n@bp.route(\"/error_404\")\n@login_required\ndef error_404():",
+        "peekOfCode": "def layout_sidenav():\n    return render_template('windowskin/layout-sidenav-light.html')\n#error\n@bp.route(\"/error_401\")\ndef error_401():\n    return render_template('error/401.html')\n@bp.route(\"/error_404\")\ndef error_404():\n    return render_template('error/404.html')\n@bp.route(\"/error_500\")",
         "detail": "flasktodo.todo",
         "documentation": {}
     },
@@ -766,7 +514,7 @@
         "kind": 2,
         "importPath": "flasktodo.todo",
         "description": "flasktodo.todo",
-        "peekOfCode": "def error_401():\n    return render_template('error/401.html')\n@bp.route(\"/error_404\")\n@login_required\ndef error_404():\n    return render_template('error/404.html')\n@bp.route(\"/error_500\")\n@login_required\ndef error_500():\n    return render_template('error/500.html')",
+        "peekOfCode": "def error_401():\n    return render_template('error/401.html')\n@bp.route(\"/error_404\")\ndef error_404():\n    return render_template('error/404.html')\n@bp.route(\"/error_500\")\ndef error_500():\n    return render_template('error/500.html')\nif __name__ == \"__main__\":\n    bp.run(debug=True)",
         "detail": "flasktodo.todo",
         "documentation": {}
     },
@@ -775,7 +523,7 @@
         "kind": 2,
         "importPath": "flasktodo.todo",
         "description": "flasktodo.todo",
-        "peekOfCode": "def error_404():\n    return render_template('error/404.html')\n@bp.route(\"/error_500\")\n@login_required\ndef error_500():\n    return render_template('error/500.html')\nif __name__ == \"__main__\":\n    bp.run(debug=True)",
+        "peekOfCode": "def error_404():\n    return render_template('error/404.html')\n@bp.route(\"/error_500\")\ndef error_500():\n    return render_template('error/500.html')\nif __name__ == \"__main__\":\n    bp.run(debug=True)",
         "detail": "flasktodo.todo",
         "documentation": {}
     },
@@ -793,7 +541,7 @@
         "kind": 5,
         "importPath": "flasktodo.todo",
         "description": "flasktodo.todo",
-        "peekOfCode": "bp = Blueprint('todo', __name__)\n#check list만 여기서 sorting\n@bp.route(\"/\",methods=[\"POST\",\"GET\"])\n@login_required\ndef index():\n    ####################### INITIAL #####################\n    # symptoms\n    initial_data=[\"DRAIN\",\"EXPLANATION\",\"EXTERIOR\",\"FILLING\",\"LEAK\",\"LID\",\"MISASSEMBLY\",\"MOTOR\",\"NOISE/VIBRATION\",\"OTHER\",\"PCB\",\"RETURN\"]\n    # pivot chart --> datatablesSimple2\n    sort_pivot=pivot_function(initial_data)",
+        "peekOfCode": "bp = Blueprint('todo', __name__)\n#check list만 여기서 sorting\n@bp.route(\"/\",methods=[\"POST\",\"GET\"])\ndef index():\n    ####################### INITIAL #####################\n    # symptoms\n    initial_data=[\"DRAIN\",\"EXPLANATION\",\"EXTERIOR\",\"FILLING\",\"LEAK\",\"LID\",\"MISASSEMBLY\",\"MOTOR\",\"NOISE/VIBRATION\",\"OTHER\",\"PCB\",\"RETURN\"]\n    # pivot chart --> datatablesSimple2\n    sort_pivot=pivot_function(initial_data)\n    sort_pivot_html=html_table(sort_pivot)",
         "detail": "flasktodo.todo",
         "documentation": {}
     },
